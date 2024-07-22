@@ -1,0 +1,17 @@
+optuna
+pytorch-lightning==1.7.6
+lassonet
+wandb
+torchnmf
+nimfa
+pyro-api
+pyro-ppl
+scikit-learn-extra
+rich
+gpytorch
+sweeps
+pynvml
+protobuf==3.19.6
+tensorflow==2.9.2
+lifelines
+importlib-metadata

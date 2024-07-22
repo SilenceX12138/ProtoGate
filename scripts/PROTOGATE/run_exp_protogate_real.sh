@@ -1,0 +1,12 @@
+python src/run_experiment.py \
+	--model 'protogate' \
+	--dataset 'metabric-pam50__200' \
+	--metric_model_selection total_loss \
+	--lr 0.1 \
+	--protogate_lam_global 0.0002 \
+	--protogate_lam_local 0.001 \
+	--pred_k 3 \
+	--max_steps 8000 \
+	--protogate_gating_hidden_layer_list 200 \
+	--tags 'real-world' \
+	--disable_wandb

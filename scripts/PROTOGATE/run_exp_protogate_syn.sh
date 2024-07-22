@@ -1,0 +1,12 @@
+python src/run_experiment.py \
+	--model 'protogate' \
+	--dataset 'syn1' \
+	--metric_model_selection total_loss \
+	--lr 0.1 \
+	--protogate_lam_global 0.0001 \
+	--protogate_lam_local 0.015 \
+	--pred_k 3 \
+	--max_steps 7000 \
+	--protogate_gating_hidden_layer_list 100 \
+	--tags 'synthetic' \
+	--disable_wandb
