@@ -10,6 +10,8 @@ Official PyTorch implementation of ["ProtoGate: Prototype-based Neural Networks 
 
 by [Xiangjian Jiang](https://silencex12138.github.io/), [Andrei Margeloiu](https://www.cst.cam.ac.uk/people/am2770), [Nikola Simidjievski](https://simidjievskin.github.io/), [Mateja Jamnik](https://www.cl.cam.ac.uk/~mj201/).
 
+![ICML2024_ProtoGate_poster](https://s2.loli.net/2024/07/22/4bePAWMp2gau1dF.png)
+
 ## Installing
 
 ### Local Machine
@@ -94,3 +96,16 @@ We provide scripts for ProtoGate and benchmark methods to work on the real-world
 * **Q: Which license does this codebase follow?**
 
   A: This codebase will follow the Apache-2.0 license when ProtoGate is publicly available for community.
+  
+## Citation
+
+Please cite our work if this repo helps you:
+
+```bibtex
+@inproceedings{jiang2024protogate,
+  title={ProtoGate: Prototype-based Neural Networks with Global-to-local Feature Selection for Tabular Biomedical Data},
+  author={Jiang, Xiangjian and Margeloiu, Andrei and Simidjievski, Nikola and Jamnik, Mateja},
+  booktitle={Forty-first International Conference on Machine Learning},
+  year={2024}
+}
+```
